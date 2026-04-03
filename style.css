@@ -3,20 +3,21 @@
    ============================================================ */
 
 :root {
-  --bg: #FAFAF8;
+  --bg: #FAF9F6;           /* warm white */
   --bg-card: #FFFFFF;
-  --bg-subtle: #F4F4F1;
-  --text: #1A1A1A;
-  --text-muted: #6B6B68;
-  --text-light: #9B9B98;
+  --bg-subtle: #EDE9DF;    /* oat — Anthropic-style cream */
+  --bg-warm: #F5F1E8;      /* mid-tone warm */
+  --text: #141413;         /* near-black (Anthropic) */
+  --text-muted: #5C5A55;
+  --text-light: #9B9890;
   --accent: #0F766E;
   --accent-hover: #0D5F58;
-  --accent-bg: #F0FDF9;
-  --accent-border: #99F6E4;
-  --border: #E5E5E3;
-  --border-strong: #D0D0CE;
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.03);
-  --shadow-md: 0 4px 16px rgba(0,0,0,0.07), 0 2px 6px rgba(0,0,0,0.04);
+  --accent-bg: #EAF7F5;
+  --accent-border: #A7E8DF;
+  --border: #DDD9CF;       /* warm cream border */
+  --border-strong: #C8C4B8;
+  --shadow-sm: 0 1px 3px rgba(20,20,19,0.06), 0 1px 2px rgba(20,20,19,0.04);
+  --shadow-md: 0 4px 16px rgba(20,20,19,0.08), 0 2px 6px rgba(20,20,19,0.05);
   --font: 'Syne', sans-serif;
   --radius: 10px;
   --nav-h: 64px;
@@ -97,7 +98,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   right: 0;
   z-index: 100;
   height: var(--nav-h);
-  background: rgba(250, 250, 248, 0.88);
+  background: rgba(250, 249, 246, 0.88);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid transparent;
